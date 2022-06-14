@@ -1,0 +1,26 @@
+POST  http://localhost:3000/register/
+Content-Type: application/json
+
+{
+ "username": "Raju1234",
+ "name": "Raju",
+ "password": "Prudvi",
+ "gender": "Male",
+}
+
+###
+
+POST  http://localhost:3000/login/
+Content-Type: application/json
+
+{
+ "username": "Raju1234",
+ "password": "Prudvi@123",
+}
+
+###
+
+GET  http://localhost:3000/user/tweets/feed/?username=SSranbir
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFodWwiLCJnZW5kZXIiOiJNYWxlIiwibG9jYXRpb24iOiJoeWRlcmFiYWQiLCJpYXQiOjE2MTc0MzI0MDd9.Eqevw5QE70ZAVrmOZUc6pflUbeI0ffZUmQLDHYplU8g
+
+###
